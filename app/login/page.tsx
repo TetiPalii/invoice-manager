@@ -1,8 +1,9 @@
-import { Button } from "@/components/ui/button";
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { signIn } from "../utils/auth";
+import { SubmitButton } from "../components/SubmitButtons";
 
 
 export default function Login() {
@@ -28,7 +29,7 @@ export default function Login() {
                                 required
                                 placeholder="hello@gmail.com" />
                         </div>
-                        <Button>Submit</Button>
+                        <SubmitButton />
                     </form>
                 </CardContent>
             </Card>
